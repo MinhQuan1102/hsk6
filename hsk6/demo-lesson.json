@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "lessons": [
+    {
+      "id": "sample-word-set-001",
+      "title": "环境与城市发展",
+      "subtitle": "Demo format lesson được generate từ một word set",
+      "level": "HSK6",
+      "estimatedMinutes": 18,
+      "targetWords": [
+        { "word": "维护", "pinyin": "wéihù", "meaning": "duy trì, bảo vệ", "pos": "动词", "collocations": ["维护权益", "维护秩序"] },
+        { "word": "缓解", "pinyin": "huǎnjiě", "meaning": "làm dịu, giảm bớt", "pos": "动词", "collocations": ["缓解压力", "缓解矛盾"] },
+        { "word": "趋势", "pinyin": "qūshì", "meaning": "xu hướng", "pos": "名词", "collocations": ["发展趋势", "明显趋势"] }
+      ],
+      "exercises": [
+        {
+          "id": "sample-word-set-001-ex-1",
+          "type": "cloze_choice",
+          "title": "选词填空",
+          "context": "为了_____消费者的合法权益，相关部门完善了投诉处理机制。",
+          "prompt": "选择最恰当的词。",
+          "options": ["维护", "缓解", "趋势", "调整"],
+          "answer": 0,
+          "explanation": "“维护权益” là collocation tự nhiên trong văn viết HSK6.",
+          "targetWords": ["维护"]
+        },
+        {
+          "id": "sample-word-set-001-ex-2",
+          "type": "fill_blank",
+          "title": "词语回忆",
+          "context": "增加公共交通班次有助于________早晚高峰的交通压力。",
+          "prompt": "填写一个最合适的词。",
+          "acceptedAnswers": ["缓解"],
+          "explanation": "“缓解压力” = giảm bớt áp lực.",
+          "targetWords": ["缓解"]
+        }
+      ]
+    }
+  ]
+}

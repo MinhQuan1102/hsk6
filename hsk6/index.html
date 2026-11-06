@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff7fb" />
+  <title>HSK6 Context Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">🌸</div>
+        <div>
+          <strong>HSK6 Context Lab</strong>
+          <span>Learn words in real context.</span>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <button class="nav-item active" data-view="study">
+          <span>📚</span>
+          <span>Học theo lesson</span>
+        </button>
+        <button class="nav-item" data-view="studio">
+          <span>🧩</span>
+          <span>Content Studio</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-card">
+        <div class="mini-title">Tiến độ hôm nay</div>
+        <div class="progress-line"><span id="sidebarProgressText">0 / 5 hoạt động</span><strong id="sidebarPercent">0%</strong></div>
+        <div class="progress-track"><div id="sidebarProgressBar" class="progress-fill"></div></div>
+        <small>Dữ liệu lưu ngay trên trình duyệt.</small>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" id="eyebrow">STUDENT SPACE</p>
+          <h1 id="pageTitle">Học từ bằng ngữ cảnh 🌱</h1>
+          <p id="pageSubtitle">Không flashcard — luyện từ qua bài tập sát HSK6.</p>
+        </div>
+        <div class="top-actions">
+          <button id="resetDemoBtn" class="ghost-btn">Khôi phục demo</button>
+          <div class="streak-pill">🔥 <span id="streakValue">6</span> ngày</div>
+        </div>
+      </header>
+
+      <section id="studyView" class="view active"></section>
+      <section id="studioView" class="view"></section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

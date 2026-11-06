@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "lessons": [
+    {
+      "id": "hsk6-topic-001",
+      "title": "Tên chủ đề",
+      "subtitle": "Mô tả ngắn về lesson",
+      "level": "HSK6",
+      "estimatedMinutes": 25,
+      "targetWords": [
+        {
+          "word": "维护",
+          "pinyin": "wéihù",
+          "meaning": "duy trì, bảo vệ",
+          "pos": "动词",
+          "collocations": ["维护权益", "维护秩序"]
+        }
+      ],
+      "exercises": [
+        {
+          "id": "hsk6-topic-001-ex-1",
+          "type": "cloze_choice",
+          "title": "选词填空",
+          "context": "为了_____消费者的合法权益，相关部门出台了新规定。",
+          "prompt": "选择最恰当的词。",
+          "options": ["维护", "缓解", "促进", "调整"],
+          "answer": 0,
+          "explanation": "Giải thích vì sao đáp án đúng và collocation liên quan.",
+          "targetWords": ["维护"]
+        }
+      ]
+    }
+  ]
+}
